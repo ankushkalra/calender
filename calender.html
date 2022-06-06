@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="calender.css">
+	<script type="text/javascript" src="calender.js"></script>
+</head>
+<body>
+  <p id="demo"></p>
+  <input type="text" id="dateInput" name="dateInput">
+  <button onclick="createDateScreen()">▼</button>
+  <div id="calender" style="display: block;">
+    <div class="button-bar">
+      <button onclick="prevYear()">&#x226A;</button>
+      <button onclick="prevMonth()">&lt;</button>
+      <p id="semiScreen">
+        <button id="monthScreen"></button>
+        <button id="yearScreen"></button>
+      </p>
+      <button onclick="nextMonth()">&gt;</button>
+      <button onclick="nextYear()">&#x226B;</button>
+    </div>
+    <table id="calTable"></table>
+ 
+</body>
+</html>

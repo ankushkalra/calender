@@ -1,0 +1,71 @@
+
+   table, th, td {
+     border: 1px solid #f2f2f2;
+      font-size: 20px;
+   }
+
+   table {
+     border-collapse: collapse;
+   }
+
+  tr:nth-child(even) {
+     background-color: #f2f2f2;
+  }
+
+  td {
+      padding: 4px 10px;
+      text-align: center;
+  }
+
+  td:hover {
+      color: white;
+      background-color: #888;
+  }
+
+  body {
+      font-family: Arial;
+  }
+
+  #calender {
+      position: relative;
+      z-index: 1;
+      display: none;
+  }
+
+  #calender table {
+      width: 287px;
+  }
+
+  div.button-bar {
+      height: 50px;
+      /*line-height: 100%;*/
+       width: 287px;
+  }
+
+  #semiScreen {
+      padding: 0px;
+      display: inline-block;
+      width: 127px;
+      margin: 0px;
+      height: 50px;
+      text-align: center;
+      line-height: 50px;
+  }
+
+  #calender div.button-bar button {
+      background: white;
+      height: 100%;
+      border: none;
+      margin: 0px;
+      width: 35px;
+      outline: none;
+  }
+
+  #calender div.button-bar button:hover {
+    color: white;
+    background-color: #888;
+  }
+
+   #calender div.button-bar #semiScreen button {
+     width: auto;
+   }
